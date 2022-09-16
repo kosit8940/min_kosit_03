@@ -1,24 +1,5 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-image: url("image/mesh-48.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.contact_me {
-    background-color: black;
-    color: white;
-    text-decoration-line: none;
-    padding: 10px;
-}
-
-.contact_me:hover + .hide {
-    display: block;
-}
-
-.hide {
-    display: none;
-    padding: 10px;
     background-color: black;
     color: white;
 }
@@ -30,6 +11,14 @@ body {
 .vh-90 {
     height: 90vh;
 } 
+
+h1 {
+    font-weight: bolder;
+}
+
+h5 {
+    font-weight: bolder;
+}
 
 .kosit {
     border-radius: 50%;
